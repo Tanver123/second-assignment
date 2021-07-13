@@ -5,6 +5,8 @@
 /* common css styles */
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 /* welcome are styles */
@@ -14,7 +16,6 @@ body{
 }
 .container{
     width: 1140px;
-    height: 456px;
     margin: 0 auto;
     padding-top: 67px;
     padding-bottom: 86px;
@@ -50,4 +51,50 @@ body{
     border-radius: 5px;
     padding: 10px 10px;
 
+}
+/* player area styles */
+
+.player-area{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 27px;
+    grid-column-gap: 27px;
+}
+.player{
+    width: 330px;
+    height: 474px;
+    box-shadow:1px 1px 10px grey;; 
+    padding: 15px;
+}
+
+.player img{
+    width: 100%;
+}
+
+footer{
+    Width:483.87px;
+    Height:213px;
+    margin: 60px auto;
+}
+.footer-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer img{
+    width: 100%;
+}
+.icon-area{
+    margin: 10px 0;
+}
+.fab{
+    padding: 5px 5px;
+    background-color: #E5E5E5;
+    border-radius: 50%;
+    color: gray;
+    margin-right: 10px;
+}
+.footer-detail{
+    font-size: 18px;
+    font-weight: 400;
 }
