@@ -101,6 +101,7 @@ footer img{
     font-weight: 400;
 }
 
+/* responsive section styles */
 @media only screen and (max-width:688px) {
     main{
         overflow: hidden;
@@ -130,8 +131,12 @@ footer img{
         grid-template-columns: repeat(1,1fr);
         justify-items: center;
     }
-    .footer-area{
-        width: 280px;
-    } 
+    footer{
+        width: 200px;
+        margin-top: 0px;
+    }
+    .footer-detail{
+        font-size: 14px;
+    }
     
 }
