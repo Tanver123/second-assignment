@@ -15,7 +15,7 @@ body{
     background-color: #2D25A0;
 }
 .container{
-    width: 1140px;
+    width: 1100px;
     margin: 0 auto;
     padding-top: 67px;
     padding-bottom: 86px;
@@ -63,13 +63,15 @@ body{
 .player{
     width: 330px;
     height: 474px;
-    box-shadow:1px 1px 10px grey;; 
+    box-shadow:1px 1px 10px #d1b4b4; 
     padding: 15px;
 }
 
 .player img{
     width: 100%;
 }
+
+/* footer area styles */
 
 footer{
     Width:483.87px;
@@ -97,4 +99,35 @@ footer img{
 .footer-detail{
     font-size: 18px;
     font-weight: 400;
+}
+
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+    .welcome-area{
+        display:block;
+        margin: -25px 0;
+    }
+    .welcome-info{
+        padding-left: 20px;
+    }
+    .welcome-title{
+        width:278px;
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .welcome-banner img{
+        width: 329px;
+        height: 259.17px;
+        padding: 20px 10px;
+
+    }
+    .player-area{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .footer-area{
+        width: 280px;
+    } 
+    
 }
