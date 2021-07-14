@@ -102,6 +102,9 @@ footer img{
 }
 
 @media only screen and (max-width:688px) {
+    body{
+        width: fit-conten;
+    }
     .container{
         width: 100%;
     }
