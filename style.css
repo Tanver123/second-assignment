@@ -8,6 +8,9 @@ body{
     margin: 0;
     padding: 0;
 }
+p{
+    color: #6C6C6C;
+}
 /* manu area styles */
 .manu-main-area{
     background-color: #2D25A0;
